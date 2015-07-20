@@ -1,14 +1,14 @@
 .site-footer {
-  @extend %padding-small;
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-  font-size: 0.9em;
+    @extend %padding-small;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 0.9em;
 
-  li {
-    display: inline;
-  }
-  li+li {
-      margin-left: 1em;
-  }
+    li {
+        display: inline;
+    }
+    li+li {
+        margin-left: 1em;
+    }
 }
