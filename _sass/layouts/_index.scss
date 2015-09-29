@@ -1,3 +1,10 @@
+.content {
+    clear: both;
+}
+.extended-title {
+    display: none;
+}
+
 // Header text feature
 .call-out {
     @extend %padding-regular;
@@ -5,7 +12,6 @@
     width: 100%;
     background-color:$header-desc-background-color;
     background-size: cover;
-    font-size: 1.2em;
     text-align: center;
     color: $header-desc-text-color;
 }
@@ -14,16 +20,26 @@
 }
 // Post listing
 .posts {
+    margin-bottom: 0;
+    .post-link.external::after {
+        content: '\279a';
+    }
     .post-teaser {
         @extend %padding-regular;
         width: 100%;
         margin-bottom: 0;
-        display: inline-block;
+        padding-top: 3%;
+        padding-bottom: 0;
         background-size: $feature-image-size;
-        border-bottom: 1px solid $border-color;
         p a:hover {
             @extend %link-hover;
         }
+    }
+    .post-teaser:first-child {
+        padding-top: 7.5%;
+    }
+    .post-teaser:last-child {
+        padding-bottom: 7.5%;
     }
     .excerpt {
         margin-top: 1em;

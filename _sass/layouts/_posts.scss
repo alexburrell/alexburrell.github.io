@@ -47,6 +47,16 @@ header {
         @extend %padding-regular;
     }
 }
+.post-content img {
+    display: block;
+    margin: 50px auto;
+}
+.post-content img:first-child {
+    margin-top: 0;
+}
+.post-content img:last-child {
+    margin-bottom: 0;
+}
 // Post navigation
 #post-nav {
     width:100%;

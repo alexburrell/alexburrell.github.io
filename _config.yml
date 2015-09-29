@@ -1,20 +1,25 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://alexburrell.github.io" # the base hostname & protocol for your site
+url: "http://alexburrell.github.io"
+# url: "http://alexburrell.com"
+# url: ""
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: From web developer to computational linguist
+  # From web developer to computational linguist
+  title: Hi there! I'm Alex.
   avatar:
   gravatar: # Email MD5 hash
   description:
 
   # Header and footer text
-  header_text:
+  header_text: I'm taking a year off to finish my Master's degree and do some other things that a demanding job hasn't left time for. Here's a list of the things I'm doing from <span class="nowrap">late-September 2015 to October 2016</span>.
+  header_text_condensed: I'm taking a year off to finish my Master's degree and do some other things that a demanding job hasn't left time for. In this time...
+  goal_text: And here are my goals for this year off.
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
   # Icons
   rss: false
@@ -59,8 +64,8 @@ theme:
   post_navigation: false
 
 # PAGINATION
-paginate: 5
-paginate_path: "blog/page:num"
+# paginate: 5
+# paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
 markdown: kramdown
