@@ -1,8 +1,8 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://alexburrell.github.io"
+# url: "http://alexburrell.github.io"
 # url: "http://alexburrell.com"
-# url: ""
+url: ""
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
